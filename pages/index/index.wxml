@@ -1,0 +1,10 @@
+<!--pages/index.wxml-->
+<view>{{message}}</view>
+<view></view>
+
+<view wx:for="{{array}}">{{item}}</view>
+<view wx:if="{{!flag}}">can you see me ?</view>
+<view>
+<button bindtap='aa'>ggggg</button>
+</view>
+
